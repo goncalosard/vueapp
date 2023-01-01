@@ -5,7 +5,7 @@
     <div class="flex greyicons showName">
       <slot name="image"></slot>
 
-      <div class="hide">
+      <div>
         <slot name="name"></slot>
       </div>
     </div>
@@ -47,11 +47,6 @@
   font-size: 20px;
   width: fit-content;
   // height: 57.59px;
-}
-.names {
-  cursor: default;
-  margin-left: 5px;
-  font-weight: 500;
 }
 
 .pill {
