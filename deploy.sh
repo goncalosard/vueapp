@@ -4,4 +4,6 @@ git add .
 
 git commit -m "changes"
 
-git push heroku main
+git branch -M main
+
+git push -u origin main
