@@ -37,7 +37,7 @@ AOS.init();
               <v-icon name="vi-file-type-vue" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Vue</div>
+              <div class="bold">Vue</div>
             </template>
           </Pill>
 
@@ -46,7 +46,7 @@ AOS.init();
               <v-icon name="vi-file-type-angular" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Angular</div>
+              <div class="bold">Angular</div>
             </template>
           </Pill>
           <Pill>
@@ -54,7 +54,7 @@ AOS.init();
               <v-icon name="vi-file-type-reactjs" scale="3" />
             </template>
             <template v-slot:name>
-              <div>React</div>
+              <div class="bold">React</div>
             </template>
           </Pill>
           <Pill>
@@ -62,20 +62,20 @@ AOS.init();
               <v-icon name="vi-file-type-stencil" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Stencil</div>
+              <div class="bold">Stencil</div>
             </template>
           </Pill>
 
           <Pill>
             <template v-slot:image>
               <v-icon
-                  color="rgb(203, 197, 32)"
-                  name="io-logo-javascript"
-                  scale="3"
-                />
+                color="rgb(203, 197, 32)"
+                name="io-logo-javascript"
+                scale="3"
+              />
             </template>
             <template v-slot:name>
-              <div>JavaScript</div>
+              <div class="bold">JavaScript</div>
             </template>
           </Pill>
 
@@ -84,7 +84,7 @@ AOS.init();
               <v-icon name="vi-file-type-typescript-official" scale="3" />
             </template>
             <template v-slot:name>
-              <div>TypeScript</div>
+              <div class="bold">TypeScript</div>
             </template>
           </Pill>
           <Pill>
@@ -92,7 +92,7 @@ AOS.init();
               <v-icon name="vi-file-type-html" scale="3" />
             </template>
             <template v-slot:name>
-              <div>HTML</div>
+              <div class="bold">HTML</div>
             </template>
           </Pill>
         </div>
@@ -103,7 +103,7 @@ AOS.init();
               <v-icon name="vi-file-type-css" scale="3" />
             </template>
             <template v-slot:name>
-              <div>CSS</div>
+              <div class="bold">CSS</div>
             </template>
           </Pill>
 
@@ -112,7 +112,7 @@ AOS.init();
               <v-icon name="vi-file-type-eslint" scale="3" />
             </template>
             <template v-slot:name>
-              <div>ESLint</div>
+              <div class="bold">ESLint</div>
             </template>
           </Pill>
 
@@ -121,7 +121,7 @@ AOS.init();
               <v-icon name="si-cypress" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Cypress</div>
+              <div class="bold">Cypress</div>
             </template>
           </Pill>
 
@@ -130,7 +130,7 @@ AOS.init();
               <v-icon color="teal" name="si-i18next" scale="3" />
             </template>
             <template v-slot:name>
-              <div>i18Next</div>
+              <div class="bold">i18Next</div>
             </template>
           </Pill>
 
@@ -140,7 +140,7 @@ AOS.init();
               <v-icon name="co-webcomponents-org" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Web Components</div>
+              <div class="bold">Web Components</div>
             </template>
           </Pill>
 
@@ -149,7 +149,7 @@ AOS.init();
               <v-icon color="purple" name="co-bootstrap" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Bootstrap</div>
+              <div class="bold">Bootstrap</div>
             </template>
           </Pill>
 
@@ -158,7 +158,7 @@ AOS.init();
               <v-icon name="si-json" scale="3" />
             </template>
             <template v-slot:name>
-              <div>JSON</div>
+              <div class="bold">JSON</div>
             </template>
           </Pill>
 
@@ -167,7 +167,7 @@ AOS.init();
               <v-icon name="vi-file-type-sass" scale="3" />
             </template>
             <template v-slot:name>
-              <div>Sass</div>
+              <div class="bold">Sass</div>
             </template>
           </Pill>
         </div>
@@ -183,6 +183,10 @@ AOS.init();
   justify-content: center;
   line-height: 75px;
   color: #2c3e50;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .sub-title {
@@ -282,8 +286,6 @@ AOS.init();
   display: flex;
   flex-direction: column;
 }
-
-
 
 .hide {
   display: none;

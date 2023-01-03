@@ -9,7 +9,7 @@ function skillsScroll() {
 
 <template>
   <div class="card">
-    <h1 class="title fadeTitle textColor">My name is Gonçalo</h1>
+    <h1 class="title fadeTitle textColor" >My name is Gonçalo</h1>
     <h1 class="sub-title hover-1 fadeTitle textColor">
       I'm a Frontend Developer
     </h1>

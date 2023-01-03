@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+let enableMode = ref(false);
+
 function skillsScroll() {
   const element: any = document.getElementById("skills");
   element?.scrollIntoView({ behavior: "smooth" });
@@ -20,18 +22,61 @@ function contactScroll() {
   const element: any = document.getElementById("contact");
   element?.scrollIntoView({ behavior: "smooth" });
 }
+
+function darkModeToggle() {
+  enableMode.value = !enableMode.value;
+  console.log(enableMode.value);
+}
 </script>
 
 <template>
   <div class="navbar">
-    <a @click="homeScroll" class="animationBounce bounce">Home</a>
-    <a @click="skillsScroll" class="animationBounce bounce">Skills</a>
-    <a @click="projectsScroll" class="animationBounce bounce">Projects</a>
-    <a @click="contactScroll" class="animationBounce bounce">Contact</a>
+    <a @click="homeScroll" class="animationBounce bounce cursor">Home</a>
+    <a @click="skillsScroll" class="animationBounce bounce cursor">Skills</a>
+    <a @click="projectsScroll" class="animationBounce bounce cursor"
+      >Projects</a
+    >
+    <a @click="contactScroll" class="animationBounce bounce cursor">Contact</a>
+
+    <v-icon
+      class="cursor moonIcon"
+      :class="{ darkmode: !enableMode }"
+      @click="darkModeToggle"
+      name="fa-moon"
+      scale="2"
+    />
+
+    <v-icon
+      class="cursor sunIcon"
+      :class="{ darkmode: enableMode }"
+      @click="darkModeToggle"
+      name="io-sunny"
+      scale="2"
+    />
   </div>
 </template>
 
 <style scoped>
+.darkmode {
+  display: none;
+  /* width: 0px;
+  transition-delay: 0.3s; */
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.sunIcon:hover {
+  color: #f9d71c;
+  transition: all 0.3s ease-out;
+}
+
+.moonIcon:hover {
+  color: #c2c5cc;
+  transition: all 0.3s ease-out;
+}
+
 .navbar {
   margin-top: 20px;
   width: 250px;
@@ -39,7 +84,6 @@ function contactScroll() {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-  cursor: pointer;
 }
 
 /* unvisited link */
