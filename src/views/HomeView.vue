@@ -70,23 +70,10 @@ function scrollPercentage() {
 .secondSector {
   width: 100%;
   margin-right: 10px;
-  /* background-image: linear-gradient(
-    0deg,
-    rgba(255, 255, 189, 1) 0%,
-    rgba(249, 249, 206, 1) 65%,
-    rgba(249, 249, 206, 1) 100%
-  ); */
 }
 
 .thirdSector {
   width: 100%;
-
-  /* background-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 189, 1) 0%,
-    rgba(249, 249, 206, 1) 65%,
-    rgba(249, 249, 206, 1) 100%
-  ); */
 }
 
 .contact {

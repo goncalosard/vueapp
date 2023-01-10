@@ -38,7 +38,7 @@ function darkModeToggle() {
     >
     <a @click="contactScroll" class="animationBounce bounce cursor">Contact</a>
 
-    <v-icon
+    <!-- <v-icon
       class="cursor moonIcon"
       :class="{ darkmode: !enableMode }"
       @click="darkModeToggle"
@@ -52,7 +52,7 @@ function darkModeToggle() {
       @click="darkModeToggle"
       name="io-sunny"
       scale="2"
-    />
+    /> -->
   </div>
 </template>
 

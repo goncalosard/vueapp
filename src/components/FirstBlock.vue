@@ -9,12 +9,10 @@ function skillsScroll() {
 
 <template>
   <div class="card">
-    <h1 class="title fadeTitle textColor" >My name is Gonçalo</h1>
-    <h1 class="sub-title hover-1 fadeTitle textColor">
-      I'm a Frontend Developer
-    </h1>
+    <h1 class="title fade textColor">My name is Gonçalo</h1>
+    <h1 class="sub-title hover-1 fade textColor">I'm a Frontend Developer</h1>
     <div class="imageAndDescription">
-      <div class="block fadeDescription textColor">
+      <div class="block fade textColor">
         <img class="photoLogo" src="../assets/photo.jpg" />
         <div class="description">
           <strong class="bold">Welcome</strong> to my page, my name is<strong
@@ -33,7 +31,7 @@ function skillsScroll() {
       </div>
     </div>
 
-    <div class="scrollIcon">
+    <div class="scrollIcon fade">
       <section id="section10" class="demo">
         <a @click="skillsScroll"><span></span></a>
       </section>
@@ -42,9 +40,6 @@ function skillsScroll() {
 </template>
 
 <style scoped>
-.scrollIcon {
-  /* padding-bottom: 0px; */
-}
 .demo a {
   cursor: pointer;
   position: absolute;
@@ -229,11 +224,7 @@ img {
   font-size: 20px;
 }
 
-.fadeTitle {
-  animation: fadeIn;
-  animation-duration: 2s;
-}
-.fadeDescription {
+.fade {
   animation: fadeIn;
   animation-duration: 2s;
 }

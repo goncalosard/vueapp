@@ -3,7 +3,9 @@
 #app {
   width: 100%;
   /* background-image: linear-gradient(to right, #f9f9ce, #f8f8d2, #f7f7d5, #f6f6d9, #f5f5dc); */
-  /* background-color: #f9f9ce; */
+  /* background-color: #facb0e;
+  background-size: 20px 20px;
+  background-image:  repeating-linear-gradient(to right, #fcdf6e, #fcdf6e 1px, #facb0e 1px, #facb0e); */
   background-color: #f9f9ce;
 
   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9f9ce 15px ), repeating-linear-gradient( #f6f66a55, #f6f66a );
