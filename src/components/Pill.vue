@@ -2,7 +2,7 @@
 
 <template>
   <div class="pill f6 link dim br-pill ba bw1 ph3 pv2 mb2 dib black" href="#0">
-    <div class="flex greyicons showName">
+    <div class="flex greyicons showName no-select">
       <slot name="image"></slot>
 
       <slot name="name"></slot>
@@ -45,6 +45,15 @@
   font-size: 20px;
   width: fit-content;
   // height: 57.59px;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari, Chrome, Opera, Samsung */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Edge, IE */
+  user-select: none; /* Modern browsers */
 }
 
 .pill {
