@@ -30,7 +30,7 @@ function darkModeToggle() {
 </script>
 
 <template>
-  <div class="navbar">
+  <div class="navbar no-select">
     <a @click="homeScroll" class="animationBounce bounce cursor">Home</a>
     <a @click="skillsScroll" class="animationBounce bounce cursor">Skills</a>
     <a @click="projectsScroll" class="animationBounce bounce cursor"
@@ -84,13 +84,21 @@ function darkModeToggle() {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-  user-select: none;
 }
 
 @media (max-width: 367px) {
   .navbar {
     font-size: 18px !important;
   }
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari, Chrome, Opera, Samsung */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Edge, IE */
+  user-select: none; /* Modern browsers */
 }
 
 /* unvisited link */
