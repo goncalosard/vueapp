@@ -6,14 +6,6 @@ import SecondBlock from "../components/SecondBlock.vue";
 import ThirdBlock from "../components/ThirdBlock.vue";
 import Contact from "../components/Contact.vue";
 import ScrollTopButton from "../components/ScrollTopButton.vue";
-
-var question = ref(document.body.scrollTop);
-const obj = reactive({ count: 0 });
-
-function scrollPercentage() {
-  question = ref(document.body.scrollTop);
-  console.log(document.body.scrollTop);
-}
 </script>
 
 <template>
@@ -40,7 +32,7 @@ function scrollPercentage() {
   <ScrollTopButton />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .firstSector {
   width: 100%;
 }
@@ -55,13 +47,13 @@ function scrollPercentage() {
   animation-duration: 2s;
 }
 
-@media (max-width: 403px) {
+@media (max-width: 440px) {
   .navbar {
     gap: 30px !important;
   }
 }
 
-@media (max-width: 338px) {
+@media (max-width: 367px) {
   .navbar {
     gap: 20px !important;
   }
@@ -69,7 +61,9 @@ function scrollPercentage() {
 
 .secondSector {
   width: 100%;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+  /* background-color: #fff4a3; */
+  background-color: #2c3e50;
 }
 
 .thirdSector {
@@ -78,5 +72,7 @@ function scrollPercentage() {
 
 .contact {
   width: 100%;
+
+  background-color: #2c3e50;
 }
 </style>

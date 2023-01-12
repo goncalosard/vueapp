@@ -140,8 +140,8 @@ AOS.init();
   height: 5px;
   text-align: left;
   margin-left: 0;
-  background-color: brown;
-  border: 2px brown solid;
+  background-color: #6c9bbd;
+  border: 2px #6c9bbd solid;
   z-index: 0;
 }
 .sizing {

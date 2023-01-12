@@ -2,9 +2,7 @@
 
 <template>
   <div class="sizing">
-    <h4 class="text">
-      Developed by myself - Based on Vue using TypeScript and Sass
-    </h4>
+    <h4 class="text">Developed by myself - Using Vue, TypeScript and Sass</h4>
   </div>
 </template>
 
@@ -12,14 +10,14 @@
 .sizing {
   width: 100%;
   height: 50px;
-  background-color: brown;
+  background-color: #6c9bbd;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .text {
-  color: #f9f9ce;
+  color: #2c3e50;
   font-weight: 500;
   text-align: center;
   margin-left: 40px;

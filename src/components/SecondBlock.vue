@@ -182,7 +182,7 @@ AOS.init();
   display: flex;
   justify-content: center;
   line-height: 75px;
-  color: #2c3e50;
+  color: #fff4a3;
 }
 
 .bold {
@@ -195,7 +195,7 @@ AOS.init();
   display: flex;
   justify-content: center;
   text-align: justify;
-  color: #2c3e50;
+  color: #fff4a3;
 }
 
 @media (max-width: 1440px) {
@@ -250,8 +250,8 @@ AOS.init();
   height: 5px;
   text-align: left;
   margin-left: 0;
-  background-color: brown;
-  border: 2px brown solid;
+  background-color: #6c9bbd;
+  border: 2px #6c9bbd solid;
 }
 .sizing {
   width: 100%;
@@ -272,7 +272,13 @@ AOS.init();
 
 .iconsbox {
   margin-top: 80px;
-  // margin-left: 20px;
+  margin-left: 40px;
+}
+
+@media (max-width: 955px) {
+  .iconsbox {
+    margin-left: 10px;
+  }
 }
 
 .icons-row {

@@ -86,6 +86,12 @@ function darkModeToggle() {
   font-size: 20px;
 }
 
+@media (max-width: 367px) {
+  .navbar {
+    font-size: 18px !important;
+  }
+}
+
 /* unvisited link */
 a:link {
   text-decoration: none;
@@ -99,12 +105,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: brown;
+  color: #6c9bbd;
 }
 
 /* selected link */
 a:active {
-  color: rgb(95, 40, 40);
+  color: #6c9bbd;
 }
 
 .bounce:hover {

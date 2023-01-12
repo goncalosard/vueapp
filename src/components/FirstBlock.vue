@@ -136,7 +136,7 @@ function skillsScroll() {
 
 .card {
   width: 100%;
-  padding-bottom: 150px;
+  padding-bottom: 170px;
 }
 .block {
   margin-top: 90px;

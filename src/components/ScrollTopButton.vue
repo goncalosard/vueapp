@@ -2,7 +2,7 @@
   <v-icon
     id="buttonTop"
     @click="toTop"
-    color="brown"
+    color="#6c9bbd"
     name="bi-arrow-up-circle-fill"
     class="scrollTop hidden"
     scale="3"
@@ -19,7 +19,7 @@
 }
 
 .scrollTop:hover {
-  color: rgb(95, 40, 40);
+  color: #436c89;
 }
 
 .hidden {

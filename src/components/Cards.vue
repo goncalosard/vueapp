@@ -34,19 +34,19 @@ defineProps({
 }
 
 a:link {
-  color: brown;
+  color: #2c3e50;
 }
 
 a:visited {
-  color: brown;
+  color: #2c3e50;
 }
 
 a:hover {
-  color: rgb(95, 40, 40);
+  color: #6c9bbd;
 }
 
 a:active {
-  color: rgb(95, 40, 40);
+  color: #6c9bbd;
 }
 
 @media (max-width: 715px) {
@@ -80,17 +80,6 @@ a:active {
   font-weight: 500;
 }
 
-body {
-  background-image: linear-gadient(45deg, #7175da, #9790f2);
-  font-family: "Muli", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
-
 .description {
   text-align: justify;
   height: 65%;
@@ -105,7 +94,7 @@ body {
   margin: 20px;
   overflow: hidden;
   width: 700px;
-  height: 250px;
+  height: 270px;
 }
 
 .course h6 {

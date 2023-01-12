@@ -5,9 +5,7 @@
     <div class="flex greyicons showName">
       <slot name="image"></slot>
 
-      <div>
-        <slot name="name"></slot>
-      </div>
+      <slot name="name"></slot>
     </div>
   </div>
 </template>
@@ -39,7 +37,7 @@
   // animation: headShake;
   // animation-duration: 1s;
   transition: all 0.5s ease-out;
-  color: var(--color-text);
+  color: #fff4a3;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -57,7 +55,7 @@
   justify-content: center;
   width: fit-content;
   margin-right: 40px;
-  border-color: brown;
+  border-color: #fff4a3;
 
   /* min-width: 80px; */
 }

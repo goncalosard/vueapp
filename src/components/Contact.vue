@@ -16,7 +16,7 @@ AOS.init();
         <a href="https://www.linkedin.com/in/goncalosard/" target="_blank">
           <v-icon
             class="colorLinkedin"
-            color="brown"
+            color="#fff4a3"
             name="bi-linkedin"
             scale="3"
         /></a>
@@ -24,13 +24,17 @@ AOS.init();
 
       <div data-aos="fade" data-aos-once="true" data-aos-delay="200">
         <a href="https://github.com/goncalosard" target="_blank">
-          <v-icon class="colorGithub" color="brown" name="bi-github" scale="3"
+          <v-icon
+            class="colorGithub"
+            color="#fff4a3"
+            name="bi-github"
+            scale="3"
         /></a>
       </div>
 
       <div data-aos="fade" data-aos-once="true" data-aos-delay="350">
         <a href="mailto:goncalosard@hotmail.com">
-          <v-icon class="colorEmail" color="brown" name="md-email" scale="3"
+          <v-icon class="colorEmail" color="#fff4a3" name="md-email" scale="3"
         /></a>
       </div>
     </div>
@@ -42,7 +46,7 @@ AOS.init();
   font-size: 70px;
   line-height: 75px;
   z-index: 1;
-  color: #2c3e50;
+  color: #fff4a3;
 }
 
 .centerBlock {
@@ -57,8 +61,8 @@ AOS.init();
   height: 5px;
   text-align: left;
   margin-left: 0;
-  background-color: brown;
-  border: 2px brown solid;
+  background-color: #6c9bbd;
+  border: 2px #6c9bbd solid;
   z-index: 0;
 }
 .sizing {
