@@ -11,6 +11,7 @@
 
 <style scoped>
 .scrollTop {
+  user-select: none;
   position: fixed;
   right: 32px;
   bottom: 52px;

@@ -84,6 +84,7 @@ function darkModeToggle() {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  user-select: none;
 }
 
 @media (max-width: 367px) {
