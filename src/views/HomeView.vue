@@ -10,7 +10,14 @@ import ScrollTopButton from "../components/ScrollTopButton.vue";
 
 <template>
   <div class="firstSector">
-    <div id="navbar" class="navbar">
+    <div
+      id="navbar"
+      class="navbar"
+      data-aos="fade"
+      data-aos-duration="1500"
+      data-aos-delay="300"
+      data-aos-once="true"
+    >
       <Navbar />
     </div>
 
@@ -43,8 +50,6 @@ import ScrollTopButton from "../components/ScrollTopButton.vue";
   align-items: center;
   width: 100%;
   gap: 50px;
-  animation: fadeIn;
-  animation-duration: 2s;
 }
 
 @media (max-width: 440px) {

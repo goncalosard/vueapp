@@ -8,13 +8,43 @@ function skillsScroll() {
 </script>
 
 <template>
+  <div class="blob"></div>
   <div class="card">
-    <h1 class="title fade textColor">My name is Gonçalo</h1>
-    <h1 class="sub-title hover-1 fade textColor">I'm a Frontend Developer</h1>
+    <h1
+      class="title textColor"
+      data-aos="fade"
+      data-aos-duration="1500"
+      data-aos-delay="600"
+      data-aos-once="true"
+    >
+      My name is Gonçalo
+    </h1>
+    <h1
+      class="sub-title textColor"
+      data-aos="fade"
+      data-aos-duration="1500"
+      data-aos-delay="900"
+      data-aos-once="true"
+    >
+      I'm a Frontend Developer
+    </h1>
     <div class="imageAndDescription">
-      <div class="block fade textColor">
-        <img class="photoLogo" src="../assets/photo.jpg" />
-        <div class="description">
+      <div class="block textColor">
+        <img
+          class="photoLogo"
+          data-aos="fade"
+          data-aos-duration="1500"
+          data-aos-delay="1200"
+          data-aos-once="true"
+          src="../assets/photo.jpg"
+        />
+        <div
+          class="description"
+          data-aos="fade"
+          data-aos-duration="1500"
+          data-aos-delay="1600"
+          data-aos-once="true"
+        >
           <strong class="bold">Welcome</strong> to my page, my name is<strong
             class="bold"
           >
@@ -31,8 +61,15 @@ function skillsScroll() {
       </div>
     </div>
 
-    <div class="scrollIcon fade">
-      <section id="section10" class="demo">
+    <div class="scrollIcon">
+      <section
+        id="section10"
+        class="demo"
+        data-aos="fade"
+        data-aos-duration="1500"
+        data-aos-delay="1900"
+        data-aos-once="true"
+      >
         <a @click="skillsScroll"><span></span></a>
       </section>
     </div>
@@ -235,5 +272,28 @@ img {
 
 .textColor {
   color: #2c3e50;
+}
+
+.blob {
+  width: 800px;
+  height: 825px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.75);
+  animation: wave 15s infinite linear;
+  opacity: 0.5;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
 }
 </style>

@@ -65,6 +65,7 @@
   width: fit-content;
   margin-right: 40px;
   border-color: #fff4a3;
+  background-color: #2c3e50;
 
   /* min-width: 80px; */
 }
