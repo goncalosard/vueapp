@@ -57,7 +57,7 @@ AOS.init();
         </Card>
       </div>
       <div data-aos="fade-left" data-aos-once="true">
-        <Card buttonUrl url="https://eugeniov3.herokuapp.com/">
+        <Card buttonUrl url="https://eugeniov3.vercel.app/">
           <template v-slot:img>
             <img
               class="photoLogo"
