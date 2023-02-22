@@ -325,6 +325,12 @@ function hoverTrigger() {
   }
 }
 
+@media (max-width: 1340px) {
+  .sub-title {
+    width: 80%;
+  }
+}
+
 @media (max-width: 750px) {
   .icons-row {
     flex-direction: column !important;
