@@ -50,10 +50,10 @@ function skillsScroll() {
           >
             Gonçalo Ferreira</strong
           >. I'm 26 years old, live in Portugal and I have a degree in
-          <strong class="bold">Computer Science</strong> and at the moment I
-          have been working as a frontend developer at Siemens. At the moment,
-          in my journey as a <strong class="bold">frontend developer</strong> I
-          have worked with 3 frameworks that are
+          <strong class="bold">Computer Science</strong>. At the moment I'm
+          working as a frontend developer at Siemens and in my journey as a
+          <strong class="bold">frontend developer</strong> I have worked with 3
+          frameworks that are
           <strong class="bold">React, Angular and Vue</strong>. I work on a
           public project that is a open source design system and I also maintain
           a web application that I have developed in the past.

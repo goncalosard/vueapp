@@ -72,9 +72,9 @@ function hoverTrigger() {
         <hr class="line" />
         <h2 class="sub-title">
           Below you can find my core skills as a frontend developer. In my
-          projects, I program mainly in TypeScript and JavaScript, where I have
+          projects, I program mainly in JavaScript and TypeScript, where I have
           used frameworks such as Vue, Angular and React. I have also worked
-          with creating Web Components, and for that i have used Stencil Js. I'm
+          with creating Web Components, and for that i have used Stencil.Js. I'm
           comfortabel using CSS & Sass, and also have worked with Bootstrap and
           Angular Material.
         </h2>

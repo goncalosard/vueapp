@@ -2,7 +2,7 @@
 
 <template>
   <div class="sizing">
-    <h4 class="text">Developed by myself - Using Vue, TypeScript and Sass</h4>
+    <h4 class="text">Developed using Vue, TypeScript and Sass</h4>
   </div>
 </template>
 

@@ -88,11 +88,10 @@ AOS.init();
           </template>
           <template v-slot:title> Power Invertors </template>
           <template v-slot:description>
-            Worked on the implementation of features and worked on resolving
-            bugs, for a web system that was meant to be used to display all the
-            data to the user. This data came from invertors located on solar
-            panels. This web system was implemented using Angular and Angular
-            Material.
+            Worked on the implementation of features and on resolving issues for
+            a web system that displayed data to the user. This data came from
+            invertors located on solar panels. This web system was implemented
+            using Angular and Angular Material.
           </template>
         </Card>
       </div>
