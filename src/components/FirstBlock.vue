@@ -38,13 +38,7 @@ function skillsScroll() {
           data-aos-once="true"
           src="../assets/photo.jpg"
         />
-        <div
-          class="description"
-          data-aos="fade"
-          data-aos-duration="1500"
-          data-aos-delay="1600"
-          data-aos-once="true"
-        >
+        <div class="description animate__animated animate__fadeIn">
           <strong class="bold">Welcome</strong> to my page, my name is<strong
             class="bold"
           >
@@ -61,15 +55,8 @@ function skillsScroll() {
       </div>
     </div>
 
-    <div class="scrollIcon">
-      <section
-        id="section10"
-        class="demo"
-        data-aos="fade"
-        data-aos-duration="1500"
-        data-aos-delay="1900"
-        data-aos-once="true"
-      >
+    <div class="scrollIcon animate__animated animate__fadeIn">
+      <section id="section10" class="scrollDown">
         <a @click="skillsScroll"><span></span></a>
       </section>
     </div>
@@ -77,7 +64,10 @@ function skillsScroll() {
 </template>
 
 <style scoped>
-.demo a {
+.scrollIcon {
+  -webkit-animation-delay: 1800ms;
+}
+.scrollDown a {
   cursor: pointer;
   position: absolute;
   margin-top: 30px;
@@ -92,7 +82,7 @@ function skillsScroll() {
   text-decoration: none;
   transition: opacity 0.3s;
 }
-.demo a:hover {
+.scrollDown a:hover {
   opacity: 0.5;
 }
 
@@ -200,6 +190,7 @@ img {
 }
 
 .description {
+  -webkit-animation-delay: 1600ms;
   margin-left: 50px;
   font-size: 20px;
   text-align: justify;
